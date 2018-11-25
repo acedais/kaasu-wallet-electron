@@ -1,4 +1,4 @@
-![WalletShell](docs/walletshell.png)  
+
 WalletShell is a GUI wallet for Kaasu.
 
 ![WalletShell Screens](https://i.imgur.com/41Ujq0S.gif "WalletShell Screens")
