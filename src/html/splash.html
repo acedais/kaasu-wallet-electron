@@ -40,7 +40,11 @@
     </head>
     <body>
     <img src="../assets/splash_logo.png" />
-    <span id="wsVersion">Copyright 2018 - The Kaasu Developers</span>
+    <span id="wsVersion"></span>
 
+    <script>
+        let remote = require('electron').remote;
+        document.getElementById('wsVersion').innerHTML = remote.app.getVersion();
+    </script>
     </body>
 </html>
